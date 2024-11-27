@@ -80,7 +80,7 @@ if __name__ == "__main__":
     query = "Maggie Tang university of newcastle"
     try:
         print(f"Search Query: {query}\n")
-        search_results = google_search(query, num_results=10, max_chars=300)
+        search_results = google_search(query, num_results=1, max_chars=300)
         print("\nEnriched Results:")
         for idx, result in enumerate(search_results, start=1):
             print(f"\nResult {idx}:")
